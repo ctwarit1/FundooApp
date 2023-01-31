@@ -1,0 +1,48 @@
+info: ::1 - - [27/Jan/2023:10:34:01 +0000] "POST /api/v1/users/registraion HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:10:35:21 +0000] "GET /api/v1/users/ HTTP/1.1" 200 65 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:10:35:31 +0000] "POST /api/v1/users/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:10:35:41 +0000] "POST /api/v1/users/registration HTTP/1.1" 200 263 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:10:36:17 +0000] "POST /api/v1/users/login HTTP/1.1" 200 41 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:10:36:54 +0000] "POST /api/v1/users/registration HTTP/1.1" 500 56 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:10:37:02 +0000] "POST /api/v1/users/registration HTTP/1.1" 500 61 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:10:59:44 +0000] "POST /api/v1/users/registration HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:10:59:55 +0000] "POST /api/v1/users/registration HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:11:00:00 +0000] "POST /api/v1/users/registration HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:11:01:16 +0000] "POST /api/v1/users/register HTTP/1.1" 500 56 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:11:03:45 +0000] "POST /api/v1/users/register HTTP/1.1" 500 61 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:11:07:13 +0000] "POST /api/v1/users/register HTTP/1.1" 500 61 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:11:07:41 +0000] "POST /api/v1/users/register HTTP/1.1" 500 61 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:11:08:49 +0000] "POST /api/v1/users/register HTTP/1.1" 500 61 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:11:09:06 +0000] "POST /api/v1/users/login HTTP/1.1" 200 41 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:11:09:32 +0000] "POST /api/v1/users/register HTTP/1.1" 200 265 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:11:09:38 +0000] "POST /api/v1/users/register HTTP/1.1" 500 61 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:11:09:43 +0000] "POST /api/v1/users/register HTTP/1.1" 500 61 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:11:12:57 +0000] "POST /api/v1/users/register HTTP/1.1" 500 61 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:11:13:07 +0000] "POST /api/v1/users/register HTTP/1.1" 200 264 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:11:15:57 +0000] "POST /api/v1/users/register HTTP/1.1" 500 53 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:11:17:00 +0000] "POST /api/v1/users/register HTTP/1.1" 500 76 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:11:17:05 +0000] "POST /api/v1/users/register HTTP/1.1" 200 263 "-" "PostmanRuntime/7.30.0"
+

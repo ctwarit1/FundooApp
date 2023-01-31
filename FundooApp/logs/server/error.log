@@ -1,0 +1,565 @@
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token / in JSON at position 7
+    at JSON.parse (<anonymous>)
+    at parse (E:\UserRegAndLogin\fundooNotes\node_modules\body-parser\lib\types\json.js:89:19)
+    at E:\UserRegAndLogin\fundooNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\UserRegAndLogin\fundooNotes\node_modules\raw-body\index.js:231:16)
+    at done (E:\UserRegAndLogin\fundooNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\UserRegAndLogin\fundooNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T10:36:06.746Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T10:36:54.121Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: UserReg.users index: email_1 dup key: { email: "c@gmail.com" } 
+      url - /api/v1/users/registration 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-27T10:37:02.305Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (E:\UserRegAndLogin\fundooNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\UserRegAndLogin\fundooNotes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:326:13)
+    at E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T10:37:02.429Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fname" is required 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T11:01:16.835Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: UserReg.users index: email_1 dup key: { email: "c@gmail.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-27T11:03:45.346Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (E:\UserRegAndLogin\fundooNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\UserRegAndLogin\fundooNotes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:326:13)
+    at E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T11:03:45.375Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: UserReg.users index: email_1 dup key: { email: "c@gmail.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-27T11:07:13.061Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (E:\UserRegAndLogin\fundooNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\UserRegAndLogin\fundooNotes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:326:13)
+    at E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T11:07:13.078Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: UserReg.users index: email_1 dup key: { email: "c@gmail.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-27T11:07:41.482Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (E:\UserRegAndLogin\fundooNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\UserRegAndLogin\fundooNotes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:326:13)
+    at E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T11:07:41.490Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: UserReg.users index: email_1 dup key: { email: "c@gmail.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-27T11:08:49.584Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (E:\UserRegAndLogin\fundooNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\UserRegAndLogin\fundooNotes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:326:13)
+    at E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T11:08:49.643Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: UserReg.users index: email_1 dup key: { email: "abc@gmail.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-27T11:09:38.215Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (E:\UserRegAndLogin\fundooNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\UserRegAndLogin\fundooNotes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:326:13)
+    at E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T11:09:38.227Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: UserReg.users index: email_1 dup key: { email: "abc@gmail.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-27T11:09:43.107Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (E:\UserRegAndLogin\fundooNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\UserRegAndLogin\fundooNotes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:326:13)
+    at E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T11:09:43.122Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: UserReg.users index: email_1 dup key: { email: "abc@gmail.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-27T11:12:57.266Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (E:\UserRegAndLogin\fundooNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\UserRegAndLogin\fundooNotes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:326:13)
+    at E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (E:\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T11:12:57.277Z"}
+error: 
+    status - 500 
+    message - Error: User already exist
+    at _callee2$ (E:\UserRegAndLogin\fundooNotes\src\services\/user.service.js:17:11)
+    at tryCatch (E:\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T11:15:57.298Z"}
+error: 
+    status - 500 
+    message - Error: Please try again with different email id!
+    at _callee2$ (E:\UserRegAndLogin\fundooNotes\src\services\/user.service.js:17:11)
+    at tryCatch (E:\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T11:17:00.272Z"}
+error: 
+    status - 500 
+    message - Error: Please try again with different email id!
+    at _callee2$ (E:\UserRegAndLogin\fundooNotes\src\services\/user.service.js:24:11)
+    at tryCatch (E:\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-28T03:32:01.816Z"}
+error: 
+    status - 500 
+    message - Error: Please try again with different email id!
+    at _callee2$ (E:\New folder\UserRegAndLogin\fundooNotes\src\services\/user.service.js:24:11)
+    at tryCatch (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-28T05:34:17.290Z"}
+error: 
+    status - 500 
+    message - Error: Please try again with different email id!
+    at _callee2$ (E:\New folder\UserRegAndLogin\fundooNotes\src\services\/user.service.js:24:11)
+    at tryCatch (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-28T05:57:47.834Z"}
+error: 
+    status - 500 
+    message - Error: Please try again with different email id!
+    at _callee2$ (E:\New folder\UserRegAndLogin\fundooNotes\src\services\/user.service.js:24:11)
+    at tryCatch (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-28T05:57:58.722Z"}
+error: 
+    status - 500 
+    message - Error: Please try again with different email id!
+    at _callee2$ (E:\New folder\UserRegAndLogin\fundooNotes\src\services\/user.service.js:24:11)
+    at tryCatch (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T11:01:51.924Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Password
+    at _callee3$ (E:\New folder\UserRegAndLogin\fundooNotes\src\services\/user.service.js:43:11)
+    at tryCatch (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T11:03:43.367Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fName" is required 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-31T07:38:04.308Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lName" is required 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-31T07:38:41.904Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lName" is required 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-31T07:38:47.521Z"}
+error: 
+    status - 500 
+    message - Error: Please try again with different email id!
+    at _callee2$ (E:\New folder\UserRegAndLogin\fundooNotes\src\services\/user.service.js:24:11)
+    at tryCatch (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-31T07:38:55.897Z"}
+error: 
+    status - 500 
+    message - Error: Please try again with different email id!
+    at _callee2$ (E:\New folder\UserRegAndLogin\fundooNotes\src\services\/user.service.js:24:11)
+    at tryCatch (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-31T07:39:04.405Z"}
+error: 
+    status - 500 
+    message - ValidationError: "title" length must be at least  characters long 
+    url - /api/v1/notes/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-31T07:42:00.814Z"}
+error: 
+    status - 500 
+    message - ValidationError: "title" length must be at least  characters long 
+    url - /api/v1/notes/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-31T07:42:10.240Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at E:\New folder\UserRegAndLogin\fundooNotes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (E:\New folder\UserRegAndLogin\fundooNotes\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (E:\New folder\UserRegAndLogin\fundooNotes\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at newNoteValidator (E:\New folder\UserRegAndLogin\fundooNotes\src\validators\/note.validator.js:15:9)
+    at Layer.handle [as handle_request] (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\New folder\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\New folder\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\New folder\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\New folder\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at E:\New folder\UserRegAndLogin\fundooNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\raw-body\index.js:231:16)
+    at done (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12) 
+    url - /api/v1/notes/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-31T07:43:06.536Z"}
+error: 
+    status - 500 
+    message - TypeError: NoteService.getAllNote is not a function
+    at _callee3$ (E:\New folder\UserRegAndLogin\fundooNotes\src\controllers\/note.controller.js:35:38)
+    at tryCatch (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at getAllNote (E:\New folder\UserRegAndLogin\fundooNotes\src\controllers\/note.controller.js:33:26)
+    at Layer.handle [as handle_request] (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\New folder\UserRegAndLogin\fundooNotes\src\middlewares\/auth.middleware.js:25:5)
+    at tryCatch (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-31T07:47:28.986Z"}
+error: 
+    status - 500 
+    message - TypeError: NoteService.getNoteId is not a function
+    at _callee4$ (E:\New folder\UserRegAndLogin\fundooNotes\src\controllers\/note.controller.js:49:38)
+    at tryCatch (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at getNoteId (E:\New folder\UserRegAndLogin\fundooNotes\src\controllers\/note.controller.js:47:25)
+    at Layer.handle [as handle_request] (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\New folder\UserRegAndLogin\fundooNotes\src\middlewares\/auth.middleware.js:25:5)
+    at tryCatch (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63d8c721249bef0bac26b11d 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-31T07:53:58.492Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: undefined }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\New folder\UserRegAndLogin\fundooNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63d8c721249bef0bac26b11d 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-31T08:01:35.213Z"}

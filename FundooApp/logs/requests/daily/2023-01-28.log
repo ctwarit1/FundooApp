@@ -1,0 +1,26 @@
+info: ::1 - - [28/Jan/2023:03:32:01 +0000] "POST /api/v1/users/register HTTP/1.1" 500 76 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:32:15 +0000] "POST /api/v1/users/register HTTP/1.1" 200 267 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:33:39 +0000] "POST /api/v1/users/register HTTP/1.1" 200 315 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:04:38:14 +0000] "POST /api/v1/users/register HTTP/1.1" 200 258 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:05:34:17 +0000] "POST /api/v1/users/register HTTP/1.1" 500 76 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:05:34:22 +0000] "POST /api/v1/users/register HTTP/1.1" 200 258 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:05:51:12 +0000] "POST /api/v1/users/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:05:51:17 +0000] "POST /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:05:51:22 +0000] "POST /api/v1/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:05:51:27 +0000] "POST /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:05:57:47 +0000] "POST /api/v1/users/register HTTP/1.1" 500 76 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:05:57:58 +0000] "POST /api/v1/users/register HTTP/1.1" 500 76 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:05:58:08 +0000] "POST /api/v1/users/register HTTP/1.1" 200 316 "-" "PostmanRuntime/7.30.0"
+
