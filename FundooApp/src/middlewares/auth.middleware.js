@@ -22,6 +22,7 @@ export const userAuth = async (req, res, next) => {
     const { user } = await jwt.verify(bearerToken, process.env.SECRET_KEY );
     res.locals.user = user;
     res.locals.token = bearerToken;
+    // req.params._id, req.body.userId 
     next();
   } catch (error) {
     next(error);

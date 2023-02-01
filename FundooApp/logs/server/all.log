@@ -645,3 +645,382 @@ info: Connected to the database. {"timestamp":"2023-01-31T08:25:07.336Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T08:27:44.715Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T08:28:00.095Z"}
 info: Connected to the database. {"timestamp":"2023-01-31T08:28:03.123Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T05:10:58.780Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T05:11:03.430Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T05:12:07.081Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T05:12:10.855Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T05:12:57.734Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T05:13:01.645Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T05:13:22.640Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T05:13:26.586Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T05:16:07.379Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T05:16:14.436Z"}
+error: 
+    status - 500 
+    message - Error: CastError: Cast to ObjectId failed for value "{ id: '63d8c771249bef0bac26b121', userId: undefined }" (type Object) at path "_id" for model "Note"
+    at _callee7$ (F:\FundooNotes\FundooApp\src\services\/note.service.js:63:13)
+    at tryCatch (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes//trash/recover/63d8c771249bef0bac26b121 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-02-01T05:20:18.737Z"}
+error: 
+    status - 500 
+    message - Error: CastError: Cast to ObjectId failed for value "{ id: '63d8c771249bef0bac26b121', userId: undefined }" (type Object) at path "_id" for model "Note"
+    at _callee6$ (F:\FundooNotes\FundooApp\src\services\/note.service.js:53:13)
+    at tryCatch (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes//trash/63d8c771249bef0bac26b121 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-02-01T05:22:35.117Z"}
+error: 
+    status - 500 
+    message - Error: CastError: Cast to ObjectId failed for value "{ id: '63d8c771249bef0bac26b121', userId: undefined }" (type Object) at path "_id" for model "Note"
+    at _callee6$ (F:\FundooNotes\FundooApp\src\services\/note.service.js:53:13)
+    at tryCatch (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes//trash/63d8c771249bef0bac26b121 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-02-01T05:24:11.431Z"}
+error: 
+    status - 500 
+    message - Error: CastError: Cast to ObjectId failed for value "{ id: '63d8c75e249bef0bac26b11f', userId: undefined }" (type Object) at path "_id" for model "Note"
+    at _callee6$ (F:\FundooNotes\FundooApp\src\services\/note.service.js:53:13)
+    at tryCatch (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/trash/63d8c75e249bef0bac26b11f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-02-01T05:25:20.600Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T05:28:13.079Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T05:28:16.798Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T05:47:05.672Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T05:47:09.927Z"}
+error: 
+    status - 500 
+    message - ReferenceError: _id is not defined
+    at _callee4$ (F:\FundooNotes\FundooApp\src\services\/note.service.js:29:7)
+    at tryCatch (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.updateNote (F:\FundooNotes\FundooApp\src\services\/note.service.js:26:24)
+    at _callee2$ (F:\FundooNotes\FundooApp\src\controllers\/note.controller.js:22:40)
+    at tryCatch (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at updateNote (F:\FundooNotes\FundooApp\src\controllers\/note.controller.js:20:26)
+    at Layer.handle [as handle_request] (F:\FundooNotes\FundooApp\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\FundooNotes\FundooApp\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (F:\FundooNotes\FundooApp\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/trash 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-02-01T05:47:26.835Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "trash" (type string) at path "_id" for model "Note"
+    at model.Query.exec (F:\FundooNotes\FundooApp\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (F:\FundooNotes\FundooApp\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/trash 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-01T05:47:42.078Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T05:48:29.047Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T05:48:33.149Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T05:51:55.841Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T05:51:59.103Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T06:05:22.863Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T06:05:29.325Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T08:26:24.367Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T08:26:27.601Z"}
+error: 
+    status - 500 
+    message - Error: CastError: Cast to ObjectId failed for value "{ id: '63d8c75e249bef0bac26b11f', userId: undefined }" (type Object) at path "_id" for model "Note"
+    at _callee6$ (F:\FundooNotes\FundooApp\src\services\/note.service.js:53:13)
+    at tryCatch (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/trash/63d8c75e249bef0bac26b11f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-02-01T08:26:56.783Z"}
+error: 
+    status - 500 
+    message - Error: CastError: Cast to ObjectId failed for value "{ id: ':63d8c75e249bef0bac26b11f', userId: undefined }" (type Object) at path "_id" for model "Note"
+    at _callee6$ (F:\FundooNotes\FundooApp\src\services\/note.service.js:53:13)
+    at tryCatch (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/trash/:63d8c75e249bef0bac26b11f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-02-01T08:27:11.083Z"}
+error: 
+    status - 500 
+    message - Error: CastError: Cast to ObjectId failed for value "{ id: ':63d8c75e249bef0bac26b11f', userId: undefined }" (type Object) at path "_id" for model "Note"
+    at _callee6$ (F:\FundooNotes\FundooApp\src\services\/note.service.js:53:13)
+    at tryCatch (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/trash/:63d8c75e249bef0bac26b11f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-02-01T08:27:16.046Z"}
+error: 
+    status - 500 
+    message - Error: CastError: Cast to ObjectId failed for value "{ id: ':63d8c75e249bef0bac26b11f', userId: undefined }" (type Object) at path "_id" for model "Note"
+    at _callee6$ (F:\FundooNotes\FundooApp\src\services\/note.service.js:53:13)
+    at tryCatch (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/trash/:63d8c75e249bef0bac26b11f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-02-01T08:27:17.892Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T08:28:28.482Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T08:28:31.820Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T08:29:42.880Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T08:29:46.124Z"}
+error: 
+    status - 500 
+    message - Error: CastError: Cast to ObjectId failed for value "{ id: ':63d8c75e249bef0bac26b11f', userId: undefined }" (type Object) at path "_id" for model "Note"
+    at _callee6$ (F:\FundooNotes\FundooApp\src\services\/note.service.js:53:13)
+    at tryCatch (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/trash/:63d8c75e249bef0bac26b11f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-02-01T08:29:50.319Z"}
+error: 
+    status - 500 
+    message - Error: CastError: Cast to ObjectId failed for value "{ id: ':63d8c75e249bef0bac26b11f', userId: undefined }" (type Object) at path "_id" for model "Note"
+    at _callee6$ (F:\FundooNotes\FundooApp\src\services\/note.service.js:53:13)
+    at tryCatch (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/trash/:63d8c75e249bef0bac26b11f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-02-01T08:29:59.877Z"}
+error: 
+    status - 500 
+    message - Error: CastError: Cast to ObjectId failed for value "{ id: ':63d8c75e249bef0bac26b11f', userId: undefined }" (type Object) at path "_id" for model "Note"
+    at _callee6$ (F:\FundooNotes\FundooApp\src\services\/note.service.js:53:13)
+    at tryCatch (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/trash/:63d8c75e249bef0bac26b11f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-02-01T08:30:04.883Z"}
+error: 
+    status - 500 
+    message - Error: CastError: Cast to ObjectId failed for value "{ id: '63d8c75e249bef0bac26b11f', userId: undefined }" (type Object) at path "_id" for model "Note"
+    at _callee6$ (F:\FundooNotes\FundooApp\src\services\/note.service.js:53:13)
+    at tryCatch (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/trash/63d8c75e249bef0bac26b11f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-02-01T08:31:13.740Z"}
+error: 
+    status - 500 
+    message - Error: CastError: Cast to ObjectId failed for value "{ id: '63d8c75e249bef0bac26b11f', userId: undefined }" (type Object) at path "_id" for model "Note"
+    at _callee6$ (F:\FundooNotes\FundooApp\src\services\/note.service.js:53:13)
+    at tryCatch (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/trash/63d8c75e249bef0bac26b11f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-02-01T08:31:22.189Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "trash" (type string) at path "_id" for model "Note"
+    at model.Query.exec (F:\FundooNotes\FundooApp\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (F:\FundooNotes\FundooApp\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/trash/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-01T08:31:42.002Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":63d8c75e249bef0bac26b11f" (type string) at path "_id" for model "Note"
+    at model.Query.exec (F:\FundooNotes\FundooApp\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (F:\FundooNotes\FundooApp\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/:63d8c75e249bef0bac26b11f 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-01T08:32:05.899Z"}
+error: 
+    status - 500 
+    message - Error: CastError: Cast to ObjectId failed for value "{ id: '63d8c75e249bef0bac26b11f', userId: undefined }" (type Object) at path "_id" for model "Note"
+    at _callee6$ (F:\FundooNotes\FundooApp\src\services\/note.service.js:53:13)
+    at tryCatch (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/trash/63d8c75e249bef0bac26b11f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-02-01T08:32:48.213Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T08:37:14.781Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T08:37:17.973Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T08:37:52.676Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T08:37:55.932Z"}
+error: 
+    status - 500 
+    message - Error: CastError: Cast to ObjectId failed for value "{ id: '63d8c75e249bef0bac26b11f' }" (type Object) at path "_id" for model "Note"
+    at _callee6$ (F:\FundooNotes\FundooApp\src\services\/note.service.js:53:13)
+    at tryCatch (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/trash/63d8c75e249bef0bac26b11f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-02-01T08:38:00.967Z"}
+error: 
+    status - 500 
+    message - Error: CastError: Cast to ObjectId failed for value "{ id: '63d8c75e249bef0bac26b11f' }" (type Object) at path "_id" for model "Note"
+    at _callee6$ (F:\FundooNotes\FundooApp\src\services\/note.service.js:53:13)
+    at tryCatch (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/trash/63d8c75e249bef0bac26b11f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-02-01T08:38:09.290Z"}
+error: 
+    status - 500 
+    message - Error: CastError: Cast to ObjectId failed for value "{ id: '63d8c75e249bef0bac26b11f' }" (type Object) at path "_id" for model "Note"
+    at _callee6$ (F:\FundooNotes\FundooApp\src\services\/note.service.js:53:13)
+    at tryCatch (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/trash/63d8c75e249bef0bac26b11f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-02-01T08:38:12.308Z"}
+error: 
+    status - 500 
+    message - Error: CastError: Cast to ObjectId failed for value "{ id: '63d8c75e249bef0bac26b11f' }" (type Object) at path "_id" for model "Note"
+    at _callee6$ (F:\FundooNotes\FundooApp\src\services\/note.service.js:53:13)
+    at tryCatch (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/trash/63d8c75e249bef0bac26b11f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-02-01T08:38:22.548Z"}
+error: 
+    status - 500 
+    message - Error: CastError: Cast to ObjectId failed for value "{ id: '63d8c75e249bef0bac26b11f' }" (type Object) at path "_id" for model "Note"
+    at _callee6$ (F:\FundooNotes\FundooApp\src\services\/note.service.js:53:13)
+    at tryCatch (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/trash/63d8c75e249bef0bac26b11f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-02-01T08:38:32.591Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T08:39:03.961Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T08:39:07.268Z"}
+error: 
+    status - 500 
+    message - Error: CastError: Cast to ObjectId failed for value "{ id: '63d8c75e249bef0bac26b11f' }" (type Object) at path "_id" for model "Note"
+    at _callee6$ (F:\FundooNotes\FundooApp\src\services\/note.service.js:53:13)
+    at tryCatch (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/trash/63d8c75e249bef0bac26b11f 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-02-01T08:40:34.271Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T09:42:03.306Z"}

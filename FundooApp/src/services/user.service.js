@@ -25,52 +25,52 @@ if (!userexist) {
   }
 };
 
-// export const login = async (body) => {
-//   try {
-//     const userdata = await User.findOne({ email: body.email });
-//     if (!userdata) {
-//       throw new Error("Invalid Email ID entered")
-//     }
+export const login = async (body) => {
+  try {
+    const userdata = await User.findOne({ email: body.email });
+    if (!userdata) {
+      throw new Error("Invalid Email ID entered")
+    }
     
-//     const validPassword = await bcrypt.compare(body.password,userdata.password);
-//     if(!validPassword){
-//       throw new Error("Invalid Password")
-//     }
-//     else{
-//       let token = jwt.sign({ email: userdata.email }, process.env.SECRET_KEY);
-//       return token;
-//       // return userdata;
-//     }
-//     return userdata;
-//   }
-//   catch (error) {
-//     throw new Error(`${error}`)
-//   }
+    const validPassword = await bcrypt.compare(body.password,userdata.password);
+    if(!validPassword){
+      throw new Error("Invalid Password")
+    }
+    else{
+      let token = jwt.sign({ email: userdata.email }, process.env.SECRET_KEY);
+      return token;
+      // return userdata;
+    }
+    return userdata;
+  }
+  catch (error) {
+    throw new Error(`${error}`)
+  }
 
-// };
+};
 
 //update single user
-// export const updateUser = async (_id, body) => {
-//   const data = await User.findByIdAndUpdate(
-//     {
-//       _id
-//     },
-//     body,
-//     {
-//       new: true
-//     }
-//   );
-//   return data;
-// };
+export const updateUser = async (_id, body) => {
+  const data = await User.findByIdAndUpdate(
+    {
+      _id
+    },
+    body,
+    {
+      new: true
+    }
+  );
+  return data;
+};
 
-// //delete single user
-// export const deleteUser = async (id) => {
-//   await User.findByIdAndDelete(id);
-//   return '';
-// };
+//delete single user
+export const deleteUser = async (id) => {
+  await User.findByIdAndDelete(id);
+  return '';
+};
 
-// //get single user
-// export const getUser = async (id) => {
-//   const data = await User.findById(id);
-//   return data;
-// };
+//get single user
+export const getUser = async (id) => {
+  const data = await User.findById(id);
+  return data;
+};
