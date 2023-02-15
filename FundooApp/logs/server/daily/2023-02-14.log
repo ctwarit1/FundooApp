@@ -1,0 +1,389 @@
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-02-14T07:37:21.812Z"}
+info: Connected to the database. {"timestamp":"2023-02-14T07:37:36.279Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-02-14T07:42:49.802Z"}
+info: Connected to the database. {"timestamp":"2023-02-14T07:42:53.203Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-02-14T07:43:04.116Z"}
+info: Connected to the database. {"timestamp":"2023-02-14T07:43:07.369Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-02-14T07:43:31.954Z"}
+info: Connected to the database. {"timestamp":"2023-02-14T07:43:45.294Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-02-14T10:11:55.737Z"}
+info: Connected to the database. {"timestamp":"2023-02-14T10:12:00.406Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-02-14T10:19:04.409Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-02-14T10:35:44.597Z"}
+info: Connected to the database. {"timestamp":"2023-02-14T10:35:49.254Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fName" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-14T10:35:49.908Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "ctwarit@gmail.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-14T10:35:52.312Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (F:\FundooNotes\FundooApp\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (F:\FundooNotes\FundooApp\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (F:\FundooNotes\FundooApp\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (F:\FundooNotes\FundooApp\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (F:\FundooNotes\FundooApp\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (F:\FundooNotes\FundooApp\node_modules\express\lib\router\index.js:326:13)
+    at F:\FundooNotes\FundooApp\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (F:\FundooNotes\FundooApp\node_modules\express\lib\router\index.js:346:12)
+    at next (F:\FundooNotes\FundooApp\node_modules\express\lib\router\index.js:280:10)
+    at F:\FundooNotes\FundooApp\node_modules\express\lib\router\index.js:646:15
+    at next (F:\FundooNotes\FundooApp\node_modules\express\lib\router\index.js:265:14)
+    at F:\FundooNotes\FundooApp\node_modules\express\lib\router\index.js:646:15
+    at next (F:\FundooNotes\FundooApp\node_modules\express\lib\router\index.js:265:14)
+    at next (F:\FundooNotes\FundooApp\node_modules\express\lib\router\route.js:136:14)
+    at _callee$ (F:\FundooNotes\FundooApp\src\controllers\/user.controller.js:16:5)
+    at tryCatch (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-14T10:35:52.445Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: test.users index: Email_1 dup key: { Email: null } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-14T10:35:54.178Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (F:\FundooNotes\FundooApp\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (F:\FundooNotes\FundooApp\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (F:\FundooNotes\FundooApp\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (F:\FundooNotes\FundooApp\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (F:\FundooNotes\FundooApp\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (F:\FundooNotes\FundooApp\node_modules\express\lib\router\index.js:326:13)
+    at F:\FundooNotes\FundooApp\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (F:\FundooNotes\FundooApp\node_modules\express\lib\router\index.js:346:12)
+    at next (F:\FundooNotes\FundooApp\node_modules\express\lib\router\index.js:280:10)
+    at F:\FundooNotes\FundooApp\node_modules\express\lib\router\index.js:646:15
+    at next (F:\FundooNotes\FundooApp\node_modules\express\lib\router\index.js:265:14)
+    at F:\FundooNotes\FundooApp\node_modules\express\lib\router\index.js:646:15
+    at next (F:\FundooNotes\FundooApp\node_modules\express\lib\router\index.js:265:14)
+    at next (F:\FundooNotes\FundooApp\node_modules\express\lib\router\route.js:136:14)
+    at _callee$ (F:\FundooNotes\FundooApp\src\controllers\/user.controller.js:16:5)
+    at tryCatch (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-14T10:35:54.191Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" must be a string 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-14T10:35:54.243Z"}
+error: 
+    status - 500 
+    message - Error: TypeError: Cannot read properties of null (reading 'email')
+    at _callee3$ (F:\FundooNotes\FundooApp\src\services\/user.service.js:53:11)
+    at tryCatch (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-14T10:35:54.733Z"}
+error: 
+    status - 500 
+    message - Error: TypeError: Cannot read properties of null (reading 'email')
+    at _callee3$ (F:\FundooNotes\FundooApp\src\services\/user.service.js:53:11)
+    at tryCatch (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-14T10:35:55.505Z"}
+error: 
+    status - 500 
+    message - Error: TypeError: Cannot read properties of null (reading 'email')
+    at _callee3$ (F:\FundooNotes\FundooApp\src\services\/user.service.js:53:11)
+    at tryCatch (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-14T10:35:55.894Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-02-14T10:39:26.578Z"}
+info: Connected to the database. {"timestamp":"2023-02-14T10:39:30.222Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fName" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-14T10:39:31.754Z"}
+error: 
+    status - 500 
+    message - Error: Please try again with different email id!
+    at _callee2$ (F:\FundooNotes\FundooApp\src\services\/user.service.js:26:11)
+    at tryCatch (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-14T10:39:32.203Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: test.users index: Email_1 dup key: { Email: null } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-14T10:39:33.272Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (F:\FundooNotes\FundooApp\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (F:\FundooNotes\FundooApp\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (F:\FundooNotes\FundooApp\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (F:\FundooNotes\FundooApp\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (F:\FundooNotes\FundooApp\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (F:\FundooNotes\FundooApp\node_modules\express\lib\router\index.js:326:13)
+    at F:\FundooNotes\FundooApp\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (F:\FundooNotes\FundooApp\node_modules\express\lib\router\index.js:346:12)
+    at next (F:\FundooNotes\FundooApp\node_modules\express\lib\router\index.js:280:10)
+    at F:\FundooNotes\FundooApp\node_modules\express\lib\router\index.js:646:15
+    at next (F:\FundooNotes\FundooApp\node_modules\express\lib\router\index.js:265:14)
+    at F:\FundooNotes\FundooApp\node_modules\express\lib\router\index.js:646:15
+    at next (F:\FundooNotes\FundooApp\node_modules\express\lib\router\index.js:265:14)
+    at next (F:\FundooNotes\FundooApp\node_modules\express\lib\router\route.js:136:14)
+    at _callee$ (F:\FundooNotes\FundooApp\src\controllers\/user.controller.js:16:5)
+    at tryCatch (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-14T10:39:33.295Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" must be a string 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-14T10:39:33.335Z"}
+error: 
+    status - 500 
+    message - Error: TypeError: Cannot read properties of null (reading 'email')
+    at _callee3$ (F:\FundooNotes\FundooApp\src\services\/user.service.js:53:11)
+    at tryCatch (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-14T10:39:34.071Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-02-14T10:45:17.515Z"}
+info: Connected to the database. {"timestamp":"2023-02-14T10:45:20.970Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fName" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-14T10:45:22.596Z"}
+error: 
+    status - 500 
+    message - Error: Please try again with different email id!
+    at _callee2$ (F:\FundooNotes\FundooApp\src\services\/user.service.js:26:11)
+    at tryCatch (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-14T10:45:22.980Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: test.users index: Email_1 dup key: { Email: null } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-14T10:45:23.811Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (F:\FundooNotes\FundooApp\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (F:\FundooNotes\FundooApp\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (F:\FundooNotes\FundooApp\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (F:\FundooNotes\FundooApp\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (F:\FundooNotes\FundooApp\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (F:\FundooNotes\FundooApp\node_modules\express\lib\router\index.js:326:13)
+    at F:\FundooNotes\FundooApp\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (F:\FundooNotes\FundooApp\node_modules\express\lib\router\index.js:346:12)
+    at next (F:\FundooNotes\FundooApp\node_modules\express\lib\router\index.js:280:10)
+    at F:\FundooNotes\FundooApp\node_modules\express\lib\router\index.js:646:15
+    at next (F:\FundooNotes\FundooApp\node_modules\express\lib\router\index.js:265:14)
+    at F:\FundooNotes\FundooApp\node_modules\express\lib\router\index.js:646:15
+    at next (F:\FundooNotes\FundooApp\node_modules\express\lib\router\index.js:265:14)
+    at next (F:\FundooNotes\FundooApp\node_modules\express\lib\router\route.js:136:14)
+    at _callee$ (F:\FundooNotes\FundooApp\src\controllers\/user.controller.js:16:5)
+    at tryCatch (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-14T10:45:23.829Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" must be a string 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-14T10:45:23.879Z"}
+error: 
+    status - 500 
+    message - Error: TypeError: Cannot read properties of null (reading 'email')
+    at _callee3$ (F:\FundooNotes\FundooApp\src\services\/user.service.js:53:11)
+    at tryCatch (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-14T10:45:24.615Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-02-14T10:53:14.444Z"}
+info: Connected to the database. {"timestamp":"2023-02-14T10:53:18.441Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fName" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-14T10:53:19.589Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "ctwarit@gmail.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-14T10:53:20.867Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (F:\FundooNotes\FundooApp\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (F:\FundooNotes\FundooApp\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (F:\FundooNotes\FundooApp\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (F:\FundooNotes\FundooApp\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (F:\FundooNotes\FundooApp\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (F:\FundooNotes\FundooApp\node_modules\express\lib\router\index.js:326:13)
+    at F:\FundooNotes\FundooApp\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (F:\FundooNotes\FundooApp\node_modules\express\lib\router\index.js:346:12)
+    at next (F:\FundooNotes\FundooApp\node_modules\express\lib\router\index.js:280:10)
+    at F:\FundooNotes\FundooApp\node_modules\express\lib\router\index.js:646:15
+    at next (F:\FundooNotes\FundooApp\node_modules\express\lib\router\index.js:265:14)
+    at F:\FundooNotes\FundooApp\node_modules\express\lib\router\index.js:646:15
+    at next (F:\FundooNotes\FundooApp\node_modules\express\lib\router\index.js:265:14)
+    at next (F:\FundooNotes\FundooApp\node_modules\express\lib\router\route.js:136:14)
+    at _callee$ (F:\FundooNotes\FundooApp\src\controllers\/user.controller.js:16:5)
+    at tryCatch (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-14T10:53:20.893Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-02-14T10:55:02.925Z"}
+info: Connected to the database. {"timestamp":"2023-02-14T10:55:06.298Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fName" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-14T10:55:07.921Z"}
+error: 
+    status - 500 
+    message - Error: Please try again with different email id!
+    at _callee2$ (F:\FundooNotes\FundooApp\src\services\/user.service.js:26:11)
+    at tryCatch (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\FundooNotes\FundooApp\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-14T10:55:08.300Z"}

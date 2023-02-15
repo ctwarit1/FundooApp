@@ -50,6 +50,66 @@ export const getAllUsers = async (req, res, next) => {
 };
 
 
+// forgetpassword
+// export const forgetPass = async (req, res) => {
+//   try {
+//     const data = await UserService.forgetPass(req.body);
+//     res.status(HttpStatus.OK).json({
+//       code: HttpStatus.OK,
+//       data: data,
+//       message: 'Email has been sent'
+//     });
+//   } catch (error) {
+//     res.status(HttpStatus.NOT_FOUND).json({
+//       code: HttpStatus.NOT_FOUND,
+//       message: `Email not found`
 
+//     });
+//   }
+// };
 
+// // reset  password
+// export const resetPass = async (req, res, next) => {
+//   try {
+//     const data = await UserService.resetPass(req.params.token, req.body);
+//     res.status(HttpStatus.OK).json({
+//       code: HttpStatus.OK,
+//       data: data,
+//       message: 'Password Changed'
+//     });
+//   } catch (error) {
+//     next(error);
+//   }
+// };
 
+// forgetpassword
+export const forgetPass = async (req, res) => {
+  try {
+    const data = await UserService.forgetPass(req.body);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: 'Email has been sent'
+    });
+  } catch (error) {
+    res.status(HttpStatus.NOT_FOUND).json({
+      code: HttpStatus.NOT_FOUND,
+      message: `Email doesn't exist`
+
+    });
+  }
+};
+
+// reset password 
+export const resetPass = async (req, res, next) => {
+  try {
+    const data = await UserService.resetPass(req.params.token, req.body);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: 'Password has been changed'
+    });
+  } catch (error) {
+    next(error);
+  }
+};

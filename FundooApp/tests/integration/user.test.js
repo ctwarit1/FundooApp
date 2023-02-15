@@ -4,11 +4,12 @@ import mongoose from 'mongoose';
 
 import app from '../../src/index';
 
-describe('User APIs Test', () => {
+
+describe('------Testing For User API-----', () => {
   before((done) => {
     const clearCollections = () => {
       for (const collection in mongoose.connection.collections) {
-        mongoose.connection.collections[collection].deleteOne(() => {});
+        mongoose.connection.collections[collection].deleteOne(() => { });
       }
     };
 
@@ -26,16 +27,57 @@ describe('User APIs Test', () => {
     done();
   });
 
-  describe('GET /users', () => {
-    it('should return empty array', (done) => {
+  describe('User Registration ', () => {
+
+    it('Valid User Details Are Given ', (done) => {
+      const inputBody = {
+        "fName": "Twarit",
+        "lName": "Chokniwal",
+        "email": "ctwarit@gmail.com",
+        "password": "twarit@123"
+      }
       request(app)
-        .get('/api/v1/users')
+        .post('/api/v1/users/register')
+        .send(inputBody)
         .end((err, res) => {
           expect(res.statusCode).to.be.equal(200);
-          expect(res.body.data).to.be.an('array');
-
           done();
         });
     });
+
+
+    it('InvalidFirstnameIsGivenItShouldThrowAnError', (done) => {
+      const inputBody = {
+        "fName": "twa",
+        "lName": "Chokniwal",
+        "email": "ctwarit@gmail.com",
+        "password": "twarit@123"
+      }
+      request(app)
+        .post('/api/v1/users/register')
+        .send(inputBody)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(500);
+          done();
+        });
+    });
+
+
+    it('InvalidLastnameIsGivenItShouldThrowAnError', (done) => {
+      const inputBody = {
+        "fName": "Twarit",
+        "lName": "Chok",
+        "email": "ctwarit@gmail.com",
+        "password": "twarit@123"
+      }
+      request(app)
+        .post('/api/v1/users/register')
+        .send(inputBody)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(500);
+          done();
+        });
+    });
+
   });
-});
+})

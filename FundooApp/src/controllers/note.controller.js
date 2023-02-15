@@ -71,3 +71,56 @@ export const deleteNote = async (req, res, next) => {
   }
 };
 
+
+export const trash = async (req, res, next) => {
+  try {
+      const data = await NoteService.sendTrash(req.params._id, req.body.userId);
+      // console.log("hello___------", data );
+      res.status(HttpStatus.ACCEPTED).json({
+          code: HttpStatus.ACCEPTED,
+          data: data,
+          message: 'OK'
+      });
+  } catch (error) {
+      next(error);
+  }
+};
+
+export const recTrash = async (req, res, next) => {
+  try {
+      const data = await NoteService.recoverTrash(req.params._id, req.body.userId);
+      res.status(HttpStatus.ACCEPTED).json({
+          code: HttpStatus.ACCEPTED,
+          data: data,
+          message: 'OK'
+      });
+  } catch (error) {
+      next(error);
+  }
+};
+
+export const archive = async (req, res, next) => {
+  try {
+      const data = await NoteService.sendArchive(req.params._id, req.body.userId);
+      res.status(HttpStatus.ACCEPTED).json({
+          code: HttpStatus.ACCEPTED,
+          data: data,
+          message: 'OK'
+      });
+  } catch (error) {
+      next(error);
+  }
+};
+
+export const recArchive = async (req, res, next) => {
+  try {
+      const data = await NoteService.recoverArchive(req.params._id, req.body.userId);
+      res.status(HttpStatus.ACCEPTED).json({
+          code: HttpStatus.ACCEPTED,
+          data: data,
+          message: 'OK'
+      });
+  } catch (error) {
+      next(error);
+  }
+};
